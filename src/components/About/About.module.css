@@ -1,0 +1,23 @@
+.About{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.Dark{
+    background-image: linear-gradient(to top,#32217e60, #0c090952), url("../../assets/images/portfolio-background.jpg") ;
+}
+
+
+.Light{
+    background-image: linear-gradient(to top, #acebeb93, #58c3ba93), url("../../assets/images/portfolio-background.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+@media (max-width: 500px) {
+    
+}
+

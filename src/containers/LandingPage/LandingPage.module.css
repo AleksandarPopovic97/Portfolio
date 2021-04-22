@@ -1,0 +1,50 @@
+.Light {
+    /* background-image: linear-gradient(#795feb60, #85312e52), url("./assets/images/portfolio-background.jpg") ; */
+    background-image: linear-gradient( #acebeb93, #58c3ba93), url("../../assets/images/portfolio-background2.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    /* background-attachment: fixed; */
+  }
+
+  .Dark{
+    background-image: linear-gradient(#32217e60, #110d0d52), url("../../assets/images/portfolio-background2.jpg") ;
+    
+  }
+
+  .LandingPage{
+      width: 100vw;
+      height: 100vh;
+  }
+
+button{
+    position: fixed;
+}
+
+.Light h1{
+    text-align: center;
+    color: rgb(17, 36, 37);
+    padding: 30px;
+    margin: 0;
+  }
+  
+  .Dark h1{
+    color: rgb(207, 168, 219);
+    font-weight: 100;
+  }
+
+
+
+.Light p{
+  color: rgb(17, 36, 37);
+}
+
+.Dark p{
+  color: rgb(207, 168, 219);
+}
+
+@media (max-width: 500px) {
+    h1{
+        font-size: 0.9rem;
+    }
+}
