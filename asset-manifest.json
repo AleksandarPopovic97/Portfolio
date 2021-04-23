@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.87cdd381.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d8da9324.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d8da9324.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.82ae6e34.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.82ae6e34.js.map",
-    "static/js/2.15de72cc.chunk.js": "/Portfolio/static/js/2.15de72cc.chunk.js",
-    "static/js/2.15de72cc.chunk.js.map": "/Portfolio/static/js/2.15de72cc.chunk.js.map",
-    "static/js/3.dfa4cb34.chunk.js": "/Portfolio/static/js/3.dfa4cb34.chunk.js",
-    "static/js/3.dfa4cb34.chunk.js.map": "/Portfolio/static/js/3.dfa4cb34.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.d09f8e00.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7c871bbc.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7c871bbc.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.74fe4065.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.74fe4065.js.map",
+    "static/js/2.4d4b7257.chunk.js": "/Portfolio/static/js/2.4d4b7257.chunk.js",
+    "static/js/2.4d4b7257.chunk.js.map": "/Portfolio/static/js/2.4d4b7257.chunk.js.map",
+    "static/js/3.3e0f6b19.chunk.js": "/Portfolio/static/js/3.3e0f6b19.chunk.js",
+    "static/js/3.3e0f6b19.chunk.js.map": "/Portfolio/static/js/3.3e0f6b19.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.87cdd381.chunk.css.map": "/Portfolio/static/css/main.87cdd381.chunk.css.map",
-    "static/js/2.15de72cc.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.15de72cc.chunk.js.LICENSE.txt",
+    "static/css/main.d09f8e00.chunk.css.map": "/Portfolio/static/css/main.d09f8e00.chunk.css.map",
+    "static/js/2.4d4b7257.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4d4b7257.chunk.js.LICENSE.txt",
     "static/media/About.module.css": "/Portfolio/static/media/portfolio-background.7f16a65d.jpg",
     "static/media/LandingPage.module.css": "/Portfolio/static/media/portfolio-background2.ae114041.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82ae6e34.js",
-    "static/js/2.15de72cc.chunk.js",
-    "static/css/main.87cdd381.chunk.css",
-    "static/js/main.d8da9324.chunk.js"
+    "static/js/runtime-main.74fe4065.js",
+    "static/js/2.4d4b7257.chunk.js",
+    "static/css/main.d09f8e00.chunk.css",
+    "static/js/main.7c871bbc.chunk.js"
   ]
 }
