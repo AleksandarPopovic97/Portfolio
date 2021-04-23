@@ -1,0 +1,12 @@
+.Education{
+    width: 100%;
+    height: 100vh;
+}
+
+.Dark{
+    background-image: linear-gradient(to bottom,#271f49, #1b161e);
+}
+
+.Light{
+    background-image: linear-gradient(to bottom, #719498, #9ce2dc93);
+}

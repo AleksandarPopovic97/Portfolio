@@ -1,0 +1,13 @@
+.Contact{
+    width: 100%;
+    height: 100vh;
+}
+
+.Dark{
+    background-image: linear-gradient(to bottom,#271f49, #331136);
+}
+
+
+.Light{
+    background-image: linear-gradient(to bottom, #5b8380, #9ce2dc93) ;
+}

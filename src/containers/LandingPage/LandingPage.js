@@ -1,6 +1,9 @@
 import classes from './LandingPage.module.css';
 import React, { Component } from 'react';
 import About from '../../components/About/About';
+import SkillsnProjects from '../../components/SkillsnProjects/SkillsnProjects';
+import Education from '../../components/Education/Education';
+import Contact from '../../components/Contact/Contact';
 class LandingPage extends Component {
 
     state = {
@@ -30,11 +33,12 @@ class LandingPage extends Component {
                 <div className={classes.LandingPage + ' ' + this.mode.join(' ')} >
                     <h1>Aleksandar Popovic Portfolio</h1>
                     <button onClick={this.changeMode}>Dark mode</button>
-                    <p>Apsolvent na Fakultetu tehnickih nauka</p>
+                    <p>Test paragraph landing page</p>
                 </div>
-                <div>
-                    <About theme={this.mode.join(' ')} />
-                </div>
+                <About theme={this.mode.join(' ')} />
+                <Education theme={this.mode.join(' ')} />
+                <SkillsnProjects theme={this.mode.join(' ')} />
+                <Contact theme={this.mode.join(' ')} />
             </React.Fragment>
         );
     }

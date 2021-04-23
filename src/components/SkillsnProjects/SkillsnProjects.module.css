@@ -1,0 +1,14 @@
+.Skills{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.Dark{
+    background-image: linear-gradient(to bottom,#1b161e, #271f49);
+}
+
+
+.Light{
+    background-image: linear-gradient(to bottom, #9ce2dc93, #5b8380) ;
+}

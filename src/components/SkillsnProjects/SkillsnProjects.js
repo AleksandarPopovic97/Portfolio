@@ -1,9 +1,9 @@
 import React from 'react';
-import classes from './About.module.css';
+import classes from './SkillsnProjects.module.css';
 
-const About = (props) => {
+const SkillsnProjects = (props) => {
 
-    const styles = [classes.About, props.theme];
+    const styles = [classes.Skills, props.theme];
 
     if (props.theme.includes('Dark')) {
         styles.push(classes.Dark);
@@ -14,11 +14,9 @@ const About = (props) => {
 
     return (
         <div className={styles.join(' ')}>
-            <h1>About me</h1>
-            <p>Test paragraph</p>
+            <h1>Skills and projects</h1>
         </div>
     )
 }
 
-
-export default About;
+export default SkillsnProjects;
