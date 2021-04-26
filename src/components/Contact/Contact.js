@@ -13,7 +13,7 @@ const Contact = (props) => {
     }
 
     return (
-        <div className={styles.join(' ')}>
+        <div className={styles.join(' ')} id="contact">
             <h1>Contact</h1>
         </div>
     )

@@ -1,0 +1,58 @@
+.Header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 139, 0.068);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.Header .Dark{
+    background-color: rgba(77, 0, 100, 0.548);
+}
+
+.Link{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    transition: 1s font-size;
+}
+
+.Link:hover{
+    background-color: #6fa29f;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.Dark{
+    color: white;
+}
+
+.Light{
+    color: black;
+}
+
+
+@media (max-width: 1500px) {
+    .Link{
+        font-size: 0.8rem;
+    }
+
+    .Link:hover{
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media (max-width: 600px){
+    .Header{
+        display: none;
+    }
+}

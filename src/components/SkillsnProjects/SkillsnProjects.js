@@ -13,7 +13,7 @@ const SkillsnProjects = (props) => {
     }
 
     return (
-        <div className={styles.join(' ')}>
+        <div className={styles.join(' ')} id="skillsNprojects">
             <h1>Skills and projects</h1>
         </div>
     )

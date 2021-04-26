@@ -13,7 +13,7 @@ const About = (props) => {
     }
 
     return (
-        <div className={styles.join(' ')}>
+        <div className={styles.join(' ')} id="about">
             <h1>About me</h1>
             <p>Test paragraph</p>
         </div>
