@@ -17,9 +17,69 @@
       height: 100vh;
   }
 
-button{
-    position: fixed;
+/* Dark mode toggle */
+
+.DMToggle{
+  
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  box-sizing: border-box;
 }
+
+.DMToggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.Test{
+  background-image: url("../../assets/images/day-and-night.svg");
+  background-size: 100px 82px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 60px;
+  
+}
+
+.Slider {
+
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.Slider:before {
+  position: absolute;
+  content: "";
+  height: 80%;
+  width: 50%;
+  margin: 3%;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.DMToggle input:checked + .Slider{
+  background-color: blueviolet;
+}
+  
+.DMToggle input:focus + .Slider{
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.DMToggle input:checked + .Slider:before{
+  transform: translateX(85%);
+}
+
+/* ---------------------- */
 
 .Light h1{
     text-align: center;

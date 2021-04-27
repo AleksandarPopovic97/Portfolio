@@ -33,8 +33,16 @@ class LandingPage extends Component {
             <React.Fragment>
                 <div className={classes.LandingPage + ' ' + this.mode.join(' ')} id="main">
                     <Header theme={this.mode.join(' ')} />
+                    <label className={classes.DMToggle} >
+                        <input type="checkbox" onClick={this.changeMode} />
+                        <span className={classes.Slider}></span>
+                        <p>Dark mode</p>
+                    </label>
                     <h1>Aleksandar Popovic Portfolio</h1>
-                    <button onClick={this.changeMode}>Dark mode</button>
+                    <div className={classes.Test}>
+
+                    </div>
+
                     <p>Test paragraph landing page</p>
                 </div>
                 <About theme={this.mode.join(' ')} />
