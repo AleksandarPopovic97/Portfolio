@@ -35,6 +35,10 @@ const Education = (props) => {
 
                 </div>
 
+                <div className={classes.Separator}>
+
+                </div>
+
                 <div className={classes.Frame}>
                     <div className={classes.LogoContainer}>
                         <img src={ftn} alt="FTN logo" className={classes.FTNLogo} />

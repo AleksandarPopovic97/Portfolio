@@ -22,10 +22,21 @@
 .Frame{
     width: 45%;
     margin: 2%;
-    border: 5px black;
-    border-style: dashed;
+    /* border: 5px black;
+    border-style: dashed; */
     border-radius: 7%;
     box-sizing: border-box;
+}
+
+.Separator{
+    margin-top: 20px;
+    height: 100%;
+    width: 0.2%;
+    background-color: black;
+}
+
+.Dark .Separator{
+    background-color: white;
 }
 
 .LogoContainer{
@@ -77,12 +88,19 @@
         margin:0;
         height: 47%;
         width: 100%;
-        border: 2px dashed black;
-        border-radius: 7%;
+        /* border: 2px dashed black;
+        border-radius: 7%; */
         box-sizing: border-box;
     }
     
     .LogoContainer{
         height: 35%;
+    }
+
+    .Separator{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 80%;
+        height: 0.2%;
     }
 }
