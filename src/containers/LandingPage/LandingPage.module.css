@@ -20,12 +20,21 @@
 /* Dark mode toggle */
 
 .DMToggle{
-  
   position: relative;
+  margin: 10px;
   display: inline-block;
-  width: 90px;
-  height: 30px;
+  width: 130px;
+  height: 40px;
+  border: 2px solid black;
   box-sizing: border-box;
+}
+
+.Dark .DMToggle{
+  border: 2px solid rgb(74, 29, 88);
+}
+
+.DMToggle:hover{
+  cursor: pointer;
 }
 
 .DMToggle input {
@@ -34,24 +43,28 @@
   height: 0;
 }
 
-.Test{
-  background-image: url("../../assets/images/day-and-night.svg");
-  background-size: 100px 82px;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 60px;
-  
+.ToggleContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1000;
+}
+
+.Dark .ToggleContainer{
+  color: rgb(207, 168, 219);
 }
 
 .Slider {
-
   position: absolute;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -59,39 +72,64 @@
 .Slider:before {
   position: absolute;
   content: "";
-  height: 80%;
+  height: 100%;
   width: 50%;
-  margin: 3%;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.486);
   -webkit-transition: .4s;
   transition: .4s;
 }
 
-.DMToggle input:checked + .Slider{
-  background-color: blueviolet;
-}
-  
-.DMToggle input:focus + .Slider{
-  box-shadow: 0 0 1px #2196F3;
-}
-
 .DMToggle input:checked + .Slider:before{
-  transform: translateX(85%);
+  transform: translateX(100%);
+  background-color: rgba(148, 45, 167, 0.431);
 }
 
 /* ---------------------- */
+.Title{
+  padding: 10px 30px 30px 30px !important;
+}
+
+.Text{
+  text-align: center;
+}
 
 .Light h1{
     text-align: center;
     color: rgb(17, 36, 37);
     padding: 30px;
     margin: 0;
+    font-weight: 100;
+
   }
   
   .Dark h1{
     color: rgb(207, 168, 219);
-    font-weight: 100;
   }
+
+  
+.Light h2{
+  text-align: center;
+  color: rgb(17, 36, 37);
+  margin: 0;
+  font-weight: 100;
+
+}
+
+.Dark h2{
+  color: rgb(207, 168, 219);
+}
+
+.Light h3{
+  text-align: center;
+  color: rgb(17, 36, 37);
+  margin: 0;
+  font-weight: 100;
+
+}
+
+.Dark h3{
+  color: rgb(207, 168, 219);
+}
 
 
 
@@ -106,5 +144,16 @@
 @media (max-width: 500px) {
     h1{
         font-size: 0.9rem;
+    }
+    h2{
+      font-size: 0.8rem;
+    }
+
+    h3{
+      font-size: 0.72rem;
+    }
+
+    p{
+      font-size: 0.65rem;
     }
 }

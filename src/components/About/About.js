@@ -15,7 +15,18 @@ const About = (props) => {
     return (
         <div className={styles.join(' ')} id="about">
             <h1>About me</h1>
-            <p>Test paragraph</p>
+            <div className={classes.SectionsContainer}>
+                <div className={classes.LeftSection}>
+                    <h3>Test title</h3>
+                    <p>Test paragraph</p>
+                </div>
+                <div className={classes.RightSection}>
+                    <h3>Test title</h3>
+                    <p>Test paragraph</p>
+                </div>
+            </div>
+
+
         </div>
     )
 }

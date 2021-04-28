@@ -5,6 +5,8 @@ import SkillsnProjects from '../../components/SkillsnProjects/SkillsnProjects';
 import Education from '../../components/Education/Education';
 import Contact from '../../components/Contact/Contact';
 import Header from '../../components/Header/Header';
+import { FaSun, FaMoon } from 'react-icons/fa';
+
 class LandingPage extends Component {
 
     state = {
@@ -12,6 +14,9 @@ class LandingPage extends Component {
     }
 
     mode = [classes.Light];
+
+    title = "Aleksandar Popovic";
+    text = "Student at Faculty of technical science and junior web developer";
 
 
     changeMode = () => {
@@ -34,16 +39,15 @@ class LandingPage extends Component {
                 <div className={classes.LandingPage + ' ' + this.mode.join(' ')} id="main">
                     <Header theme={this.mode.join(' ')} />
                     <label className={classes.DMToggle} >
+                        <div className={classes.ToggleContainer}>
+                            <FaSun />
+                            <FaMoon />
+                        </div>
                         <input type="checkbox" onClick={this.changeMode} />
                         <span className={classes.Slider}></span>
-                        <p>Dark mode</p>
                     </label>
-                    <h1>Aleksandar Popovic Portfolio</h1>
-                    <div className={classes.Test}>
-
-                    </div>
-
-                    <p>Test paragraph landing page</p>
+                    <h1 className={classes.Title}>{this.title}</h1>
+                    <p className={classes.Text}>{this.text}</p>
                 </div>
                 <About theme={this.mode.join(' ')} />
                 <Education theme={this.mode.join(' ')} />

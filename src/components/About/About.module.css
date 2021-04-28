@@ -13,6 +13,25 @@
     background-image: linear-gradient(to top, #acebeb93, #417c7c), url("../../assets/images/portfolio-background.jpg") ;
 }
 
+.SectionsContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.LeftSection{
+    width: 25%;
+    height: 50%;
+    text-align: center;
+}
+
+.RightSection{
+    width: 25%;
+    height: 50%;
+    text-align: center;    
+}
 
 @media (max-width: 500px) {
     
