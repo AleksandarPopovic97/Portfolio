@@ -31,6 +31,10 @@
     font-size: 1.1rem;
 }
 
+.Dark.Link:hover{
+    background-color: rgba(141, 98, 155, 0.548);
+}
+
 .Dark{
     color: white;
 }

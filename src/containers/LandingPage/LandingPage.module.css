@@ -84,6 +84,8 @@
   background-color: rgba(148, 45, 167, 0.431);
 }
 
+
+
 /* ---------------------- */
 .Title{
   padding: 10px 30px 30px 30px !important;
@@ -112,8 +114,9 @@
   color: rgb(17, 36, 37);
   margin: 0;
   font-weight: 100;
-
 }
+
+
 
 .Dark h2{
   color: rgb(207, 168, 219);
@@ -141,9 +144,60 @@
   color: rgb(207, 168, 219);
 }
 
+.Bulb{
+  display: none;
+}
+
+.ToTop{
+  border: 1px solid black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 35px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+}
+
+.ToTop:hover{
+  cursor: pointer;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.Dark .ToTop{
+  border: 1px solid white;
+  color: white;
+}
+
+.Dark .ToTop:hover{
+  border: 2px solid white;
+}
+
+.Arrow{
+  transform: rotate(90deg);
+}
+
+.Menu{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 30px;
+  background-color: black;
+}
+
 @media (max-width: 500px) {
+
+    .Title{
+      padding-top: 200px !important;
+    }
+
     h1{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     h2{
       font-size: 0.8rem;
@@ -156,4 +210,24 @@
     p{
       font-size: 0.65rem;
     }
+
+    .Bulb{
+      display: block;
+      position: fixed;
+      right: 0;
+      top: 0;
+      font-size: 3rem;
+      transform: rotate(-150deg);
+      color: black;
+    }
+
+    .Dark .Bulb{
+      color: yellow;
+    }
+
+    .DMToggle{
+      display: none;
+    }
+
+    
 }

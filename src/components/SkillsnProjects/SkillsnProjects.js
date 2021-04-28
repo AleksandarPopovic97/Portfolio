@@ -15,6 +15,7 @@ const SkillsnProjects = (props) => {
     return (
         <div className={styles.join(' ')} id="skillsNprojects">
             <h1>Skills and projects</h1>
+            <h2>Work in progress...</h2>
         </div>
     )
 }

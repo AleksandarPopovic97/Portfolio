@@ -15,6 +15,8 @@ const Contact = (props) => {
     return (
         <div className={styles.join(' ')} id="contact">
             <h1>Contact</h1>
+            <h2>Work in progress...</h2>
+
         </div>
     )
 }
