@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import classes from './Education.module.css';
 import vazak from '../../assets/images/aviation-academy.png';
 import ftn from '../../assets/images/ftn-logo.png';
@@ -6,6 +6,7 @@ import EduFrame from './EduFrame/EduFrame';
 
 
 const Education = (props) => {
+
 
     const styles = [classes.Education, props.theme];
 
@@ -29,6 +30,7 @@ const Education = (props) => {
                     date="09/2012 - 06/2016"
                     city="Belgrade"
                     pictureResize
+
                 />
 
                 <div className={classes.Separator}>

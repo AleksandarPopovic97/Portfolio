@@ -51,7 +51,7 @@
   align-items: center;
   font-size: 1.5rem;
   position: relative;
-  z-index: 1000;
+  z-index: 50;
 }
 
 .Dark .ToggleContainer{
@@ -181,8 +181,8 @@
   transform: rotate(90deg);
 }
 
-.Menu{
-  position: absolute;
+.MenuBtn{
+  position: fixed;
   top: 0;
   left: 0;
   width: 60px;
@@ -197,18 +197,18 @@
     }
 
     h1{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     h2{
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
 
     h3{
-      font-size: 0.72rem;
+      font-size: 0.9rem;
     }
 
     p{
-      font-size: 0.65rem;
+      font-size: 0.75rem;
     }
 
     .Bulb{

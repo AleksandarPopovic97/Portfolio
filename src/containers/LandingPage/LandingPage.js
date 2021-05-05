@@ -8,12 +8,14 @@ import Header from '../../components/Header/Header';
 import { FaSun, FaMoon, FaMedapps, FaBackward } from 'react-icons/fa';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Menu from '../../components/Menu/Menu';
 
 class LandingPage extends Component {
 
     state = {
         darkMode: false,
-        toTop: false
+        toTop: false,
+        menu: false
     }
 
     mode = [classes.Light];
@@ -26,7 +28,6 @@ class LandingPage extends Component {
         const darkMode = !this.state.darkMode;
         if (darkMode) {
             this.mode.push(classes.Dark);
-            console.log("push")
         }
         else
             this.mode.splice(this.mode.indexOf(classes.Dark), 1);
@@ -42,7 +43,6 @@ class LandingPage extends Component {
         if (window.scrollY < 400)
             this.setState({ toTop: false })
 
-        console.log(this.state.toTop);
     }
 
     componentDidMount() {
@@ -57,6 +57,16 @@ class LandingPage extends Component {
             top: 0,
             behavior: "smooth"
         })
+    }
+
+    handleMenuOpen = () => {
+        this.setState({ menu: true });
+        console.log('?')
+    }
+
+    handleMenuClose = () => {
+        this.setState({ menu: false });
+        console.log(this.state.menu)
     }
 
     render() {
@@ -94,9 +104,10 @@ class LandingPage extends Component {
                         <FaMedapps />
                     </div>
 
-                    <div className={classes.Menu}>
-
+                    <div className={classes.MenuBtn} onClick={this.handleMenuOpen}>
                     </div>
+
+                    <Menu show={this.state.menu} close={this.handleMenuClose} theme={this.mode.join(' ')} />
 
 
                     <h1 className={classes.Title}>{this.title}</h1>

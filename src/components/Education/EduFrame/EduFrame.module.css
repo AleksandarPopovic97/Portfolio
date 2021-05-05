@@ -1,3 +1,5 @@
+
+
 .Frame{
     width: 45%;
     margin: 2%;
@@ -6,7 +8,12 @@
     border-radius: 5%;
     box-sizing: border-box;
     background-image: none;
+    padding: 10px;
 }
+
+
+
+
 
 .Dark.Frame{
     border: 5px #4a1553a8;
@@ -61,6 +68,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.Frame[data-aos]{
+    pointer-events: none;
+  }
 
 
 @media (max-width: 500px) {

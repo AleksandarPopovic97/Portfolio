@@ -6,8 +6,13 @@ import "aos/dist/aos.css";
 const EduFrame = (props) => {
 
     useEffect(() => {
-        Aos.init({ duration: 1000 });
+        Aos.init({
+            duration: 1000,
+        });
+
     }, []);
+
+    //consider removing Aos and making your own animation (dark-mode bug)
 
     const styles = [classes.Frame, props.theme];
 
@@ -26,7 +31,6 @@ const EduFrame = (props) => {
 
 
     return (
-
         <div className={styles.join(' ')} data-aos="fade-up">
             <div className={classes.LogoContainer}>
                 <img src={props.logoSrc} alt={props.alt} className={logoStyle.join(' ')} />
@@ -43,7 +47,6 @@ const EduFrame = (props) => {
             </div>
 
         </div>
-
 
     );
 }
