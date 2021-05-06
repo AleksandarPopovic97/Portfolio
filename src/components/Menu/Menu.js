@@ -32,7 +32,7 @@ const Menu = (props) => {
                 <nav className={classes.Navigation}>
 
                     <Link
-                        activeClass="active"
+                        activeClass={classes.Active}
                         to="main"
                         spy={true}
                         smooth={true}
@@ -43,7 +43,7 @@ const Menu = (props) => {
                         Home
                      </Link>
                     <Link
-                        activeClass="active"
+                        activeClass={classes.Active}
                         to="about"
                         spy={true}
                         smooth={true}
@@ -55,7 +55,7 @@ const Menu = (props) => {
                      </Link>
 
                     <Link
-                        activeClass="active"
+                        activeClass={classes.Active}
                         to="education"
                         spy={true}
                         smooth={true}
@@ -68,7 +68,7 @@ const Menu = (props) => {
                     </Link>
 
                     <Link
-                        activeClass="active"
+                        activeClass={classes.Active}
                         to="skillsNprojects"
                         spy={true}
                         smooth={true}
@@ -81,7 +81,7 @@ const Menu = (props) => {
                     </Link>
 
                     <Link
-                        activeClass="active"
+                        activeClass={classes.Active}
                         to="contact"
                         spy={true}
                         smooth={true}
@@ -98,7 +98,6 @@ const Menu = (props) => {
 
                 </nav>
 
-                <button onClick={props.close}>Test</button>
             </div>
         </React.Fragment>
 

@@ -60,7 +60,7 @@ class LandingPage extends Component {
     }
 
     handleMenuOpen = () => {
-        this.setState({ menu: true });
+        this.setState({ menu: !this.state.menu });
         console.log('?')
     }
 
@@ -105,6 +105,9 @@ class LandingPage extends Component {
                     </div>
 
                     <div className={classes.MenuBtn} onClick={this.handleMenuOpen}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
                     </div>
 
                     <Menu show={this.state.menu} close={this.handleMenuClose} theme={this.mode.join(' ')} />

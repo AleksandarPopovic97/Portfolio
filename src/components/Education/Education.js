@@ -1,7 +1,9 @@
 import React from 'react';
 import classes from './Education.module.css';
 import vazak from '../../assets/images/aviation-academy.png';
+import vazakDark from '../../assets/images/aviation-academy-dark.png';
 import ftn from '../../assets/images/ftn-logo.png';
+import ftnDark from '../../assets/images/ftn-logo-dark.png';
 import EduFrame from './EduFrame/EduFrame';
 
 
@@ -9,6 +11,7 @@ const Education = (props) => {
 
 
     const styles = [classes.Education, props.theme];
+    let aaLogo = vazak;
 
     if (props.theme.includes('Dark')) {
         styles.push(classes.Dark);
@@ -23,7 +26,7 @@ const Education = (props) => {
             <div className={classes.Container}>
                 <EduFrame
                     theme={props.theme}
-                    logoSrc={vazak}
+                    logoSrc={props.theme.includes('Dark') ? vazakDark : vazak}
                     alt="Aviation academy logo"
                     institution="Aviation academy"
                     direction="Air transport search and rescue technician"
@@ -38,7 +41,7 @@ const Education = (props) => {
 
                 <EduFrame
                     theme={props.theme}
-                    logoSrc={ftn}
+                    logoSrc={props.theme.includes('Dark') ? ftnDark : ftn}
                     alt="FTN logo"
                     institution="Faculty of technical science"
                     direction="Applied software engineering"

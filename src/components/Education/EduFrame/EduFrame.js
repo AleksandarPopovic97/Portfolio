@@ -31,23 +31,27 @@ const EduFrame = (props) => {
 
 
     return (
-        <div className={styles.join(' ')} data-aos="fade-up">
-            <div className={classes.LogoContainer}>
-                <img src={props.logoSrc} alt={props.alt} className={logoStyle.join(' ')} />
-            </div>
-            <div className={classes.Institution}>
-                <h2>{props.institution}</h2>
-            </div>
-            <div className={classes.Direction}>
-                <h3>{props.direction}</h3>
-            </div>
-            <div className={classes.Date}>
-                <p>{props.city}</p>
-                <p>{props.date}</p>
+        <div className={classes.AnimationWrapper} data-aos="fade-up">
+
+            <div className={styles.join(' ')} >
+
+                <div className={classes.LogoContainer} >
+                    <img src={props.logoSrc} alt={props.alt} className={logoStyle.join(' ')} />
+                </div>
+                <div className={classes.Institution} >
+                    <h2>{props.institution}</h2>
+                </div>
+                <div className={classes.Direction} >
+                    <h3>{props.direction}</h3>
+                </div>
+                <div className={classes.Date} >
+                    <p>{props.city}</p>
+                    <p>{props.date}</p>
+                </div>
+
             </div>
 
         </div>
-
     );
 }
 
