@@ -20,7 +20,8 @@
 /* Dark mode toggle */
 
 .DMToggle{
-  position: relative;
+  /* change to relative */
+  position: fixed;
   margin: 10px;
   display: inline-block;
   width: 130px;

@@ -37,10 +37,10 @@ class LandingPage extends Component {
 
     handleScroll = (event) => {
 
-        if (window.scrollY > 400)
+        if (window.scrollY > 400 && !this.state.toTop)
             this.setState({ toTop: true });
 
-        if (window.scrollY < 400)
+        if (window.scrollY < 400 && this.state.toTop)
             this.setState({ toTop: false })
 
     }
@@ -61,12 +61,10 @@ class LandingPage extends Component {
 
     handleMenuOpen = () => {
         this.setState({ menu: !this.state.menu });
-        console.log('?')
     }
 
     handleMenuClose = () => {
         this.setState({ menu: false });
-        console.log(this.state.menu)
     }
 
     render() {

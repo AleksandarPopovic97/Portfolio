@@ -1,0 +1,57 @@
+.Project{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 30%;
+    transition: width 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Container{
+    margin-top: 20px;
+    position: relative;
+}
+
+.Container img{
+    z-index: 1;
+    transition: opacity 0.5s;
+}
+
+.Container:hover{
+    cursor: pointer;
+}
+
+.Container:hover img{
+    opacity: 0.3;
+}
+
+.Project img{
+    width: 100%;
+}
+
+.Description{
+    padding-right: 10px;
+    margin: 0;
+}
+
+.SkillOverlay{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 500px) {
+    .Project{
+        width: 60%;
+    }
+
+    .Container{
+        margin-top: 5px;
+    }
+}

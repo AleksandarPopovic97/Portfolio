@@ -13,6 +13,16 @@
     height: 100%;
     box-sizing: border-box;
     padding: 10px;
+    transition: box-shadow 1s;
+}
+
+.Frame:hover{
+    box-shadow: 7px 7px 5px 5px rgb(72, 116, 113);
+    cursor: default;
+}
+
+.Dark.Frame:hover{
+    box-shadow: 7px 7px 10px 5px rgb(55, 10, 59);
 
 }
 

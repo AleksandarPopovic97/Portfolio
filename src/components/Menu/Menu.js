@@ -18,7 +18,6 @@ const Menu = (props) => {
         styles.push(classes.Light);
     }
 
-    console.log(styles)
 
 
     return (
