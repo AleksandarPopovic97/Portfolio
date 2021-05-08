@@ -19,6 +19,8 @@ const Skills = (props) => {
         'Git'
     ];
 
+    //button for next project 
+
     return (
         <div className={classes.Skills}>
             {skills.map((skill) => {

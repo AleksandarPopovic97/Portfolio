@@ -17,11 +17,12 @@ const About = (props) => {
             <h1>About me</h1>
             <div className={classes.SectionsContainer}>
                 <div className={classes.LeftSection}>
-                    <h3>Test title</h3>
-                    <p>Test paragraph</p>
+                    <h3>Skills</h3>
+                    <p>Team player</p>
+                    <p>Communication</p>
                 </div>
                 <div className={classes.RightSection}>
-                    <h3>Test title</h3>
+                    <h3>Test</h3>
                     <p>Test paragraph</p>
                 </div>
             </div>

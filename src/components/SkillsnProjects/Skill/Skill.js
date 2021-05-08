@@ -9,7 +9,7 @@ const Skill = (props) => {
         }, props.delay);
     }, []);
 
-    console.log('Skill')
+
 
     return (
         <div className={classes.Skill}>
