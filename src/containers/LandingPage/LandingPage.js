@@ -21,7 +21,7 @@ class LandingPage extends Component {
     mode = [classes.Light];
 
     title = "Aleksandar Popovic";
-    text = "Student at Faculty of technical science and junior web developer";
+    text = "Student at Faculty of technical science and junior web developer.";
 
 
     changeMode = () => {

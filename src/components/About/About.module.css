@@ -28,6 +28,7 @@
 }
 
 .RightSection{
+    
     width: 25%;
     height: 50%;
     text-align: center;    
@@ -37,11 +38,14 @@
     .LeftSection{
         padding-left: 10px;
         box-sizing: border-box;
+        width: 40%;
     }
     
     .RightSection{
         padding-right: 10px;
         box-sizing: border-box;
+        width: 40%;
+        word-break: break-all;
     }
 }
 
