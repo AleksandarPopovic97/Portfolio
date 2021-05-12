@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ab758a92.chunk.css",
+    "main.css": "/Portfolio/static/css/main.aa9b8574.chunk.css",
     "main.js": "/Portfolio/static/js/main.6e4286e0.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.6e4286e0.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d39bce1d.js",
@@ -12,7 +12,7 @@
     "static/js/3.d0edd432.chunk.js.map": "/Portfolio/static/js/3.d0edd432.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.ab758a92.chunk.css.map": "/Portfolio/static/css/main.ab758a92.chunk.css.map",
+    "static/css/main.aa9b8574.chunk.css.map": "/Portfolio/static/css/main.aa9b8574.chunk.css.map",
     "static/js/2.e0c37dca.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e0c37dca.chunk.js.LICENSE.txt",
     "static/media/aviation-academy-dark.8c6af05e.png": "/Portfolio/static/media/aviation-academy-dark.8c6af05e.png",
     "static/media/aviation-academy.427d69d1.png": "/Portfolio/static/media/aviation-academy.427d69d1.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.d39bce1d.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.e0c37dca.chunk.js",
-    "static/css/main.ab758a92.chunk.css",
+    "static/css/main.aa9b8574.chunk.css",
     "static/js/main.6e4286e0.chunk.js"
   ]
 }
