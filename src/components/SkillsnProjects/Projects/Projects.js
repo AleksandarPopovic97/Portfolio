@@ -14,7 +14,6 @@ const Projects = (props) => {
     const [projectCount, setProjectCount] = useState(0);
 
 
-
     const nextProject = () => {
         if (projects.length - projectCount > projectsToShow)
             setProjectCount(projectCount + 1);

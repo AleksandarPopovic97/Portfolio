@@ -1,0 +1,29 @@
+.ContactFrame{
+    background-image: none;
+    border: 2px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+    height: 60%;
+    width: 100%;
+    word-break: break-all;
+    padding: 10px;
+}
+
+.TitleContainer{
+    display: flex;
+}
+
+.Icon{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.Dark .Icon{
+    color: pink;
+}
+
+.ContactFrame:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px;
+}

@@ -21,7 +21,7 @@
 
 .DMToggle{
   /* change to relative */
-  position: fixed;
+  position: relative;
   margin: 10px;
   display: inline-block;
   width: 130px;
@@ -184,7 +184,7 @@
 }
 
 .MenuBtn{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 60px;
