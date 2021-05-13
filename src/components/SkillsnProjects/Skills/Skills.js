@@ -19,12 +19,11 @@ const Skills = (props) => {
         'Git'
     ];
 
-    //button for next project 
 
     return (
         <div className={classes.Skills}>
             {skills.map((skill) => {
-                return <Skill skill={skill} key={skill} />
+                return <Skill skill={skill} key={skill} theme={props.theme} />
             })}
         </div>
     )

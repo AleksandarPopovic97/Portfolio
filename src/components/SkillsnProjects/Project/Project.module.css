@@ -20,12 +20,9 @@
     z-index: 1;
     transition: opacity 0.5s;
     background-size: cover;
-
 }
 
-.Container:hover{
-    cursor: pointer;
-}
+
 
 .Container:hover img{
     opacity: 0.3;
@@ -38,22 +35,81 @@
     margin: 0;
 }
 
-.SkillOverlay{
+.Icon{
+    font-size: 1.5rem;
+}
+
+.Link{
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+
+.Overlay{
     position: absolute;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
     z-index: 2;
     width: 100%;
     height: 100%;
 }
 
+.SkillOverlay{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.LinkBtn{
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+.Dark .LinkBtn{
+    color: white;
+}
+
+.LinkBtn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.LinkBtn:hover{
+    cursor: pointer;
+    background-color: rgba(82, 82, 82, 0.452);
+}
+
+
+
+
+
 
 @media (max-width: 500px) {
     .Project{
-        width: 60%;
+        width: 75%;
+    }
+
+    .LinkBtn{
+        font-size: 0.5rem;
+    }
+
+    .Icon{
+        font-size: 0.8rem;
+    }
+
+    .SkillOverlay{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .Container{
         margin-top: 5px;
+    }
+
+    .Link{
+        padding-top: 5px;
     }
 }

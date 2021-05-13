@@ -16,12 +16,13 @@ const SkillsnProjects = (props) => {
 
     return (
         <div className={styles.join(' ')} id="skillsNprojects">
-            <h1>Technical skills and projects</h1>
+            <h1>Skills and projects</h1>
             <div className={classes.Container}>
-                <Skills />
-                <Projects />
+                <Skills theme={props.theme} />
+                <Projects theme={props.theme} />
             </div>
         </div>
+
     )
 }
 

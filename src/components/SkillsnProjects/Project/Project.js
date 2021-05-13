@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import classes from './Project.module.css';
 import portfolio from '../../../assets/images/portfolio.png'
 import Skill from '../Skill/Skill';
+import { FaGithub } from 'react-icons/fa';
 
 const Project = (props) => {
 
@@ -18,18 +19,32 @@ const Project = (props) => {
         setOverlay(false);
     }
 
+    let styles = [classes.Project]
+
+    if (props.theme.includes('Dark')) {
+        styles.push(classes.Dark);
+    }
+    else {
+        styles.push(classes.Light);
+    }
 
 
     return (
-        <div className={classes.Project}>
+        <div className={styles.join(' ')}>
             <h3>{props.title}</h3>
             <div className={classes.Container} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                 {overlay ?
-                    <div className={classes.SkillOverlay}>
-                        {props.languages.map((skill) => {
-                            return <Skill skill={skill} />
-                        })}
+                    <div className={classes.Overlay}>
 
+                        <div className={classes.SkillOverlay}>
+                            {props.languages.map((skill) => {
+                                return <Skill skill={skill} theme={props.theme} />
+                            })}
+
+                        </div>
+                        <div className={classes.LinkBtn}>
+                            <a href={props.link} target="_blank" className={classes.Link}>Link to <FaGithub className={classes.Icon} /></a>
+                        </div>
                     </div>
                     : null}
                 <img src={props.image} ></img>
@@ -48,24 +63,4 @@ const Project = (props) => {
 
 export default Project;
 
-/*
-Portfolio
-https://github.com/AleksandarPopovic97/Portfolio
 
-Tesla distribution
-https://github.com/AleksandarPopovic97/Tesla
-
-Burger builder
-https://github.com/AleksandarPopovic97/BurgerBuilder
-
-Web1 project (apartments) --> make it public
-https://gitlab.com/acapopce97/pw69-2016-web-projekat
-
-Safety and security --> make it public
-https://gitlab.com/acapopce97/sigurnost-i-bezbednost-vol2
-
-Smart home system (upload)
---------------------------
-
-
-*/

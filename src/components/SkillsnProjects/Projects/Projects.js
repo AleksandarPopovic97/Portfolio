@@ -9,6 +9,15 @@ import { BrowserView, MobileView } from 'react-device-detect';
 
 const Projects = (props) => {
 
+    let styles = [classes.Projects]
+
+    if (props.theme.includes('Dark')) {
+        styles.push(classes.Dark);
+    }
+    else {
+        styles.push(classes.Light);
+    }
+
     const projectsToShow = 3;
 
     const [projectCount, setProjectCount] = useState(0);
@@ -24,36 +33,64 @@ const Projects = (props) => {
             setProjectCount(projectCount - 1);
     }
 
+    /*
+Portfolio
+https://github.com/AleksandarPopovic97/Portfolio
+
+Tesla distribution
+https://github.com/AleksandarPopovic97/Tesla
+
+Burger builder
+https://github.com/AleksandarPopovic97/BurgerBuilder
+
+Web1 project (apartments) --> make it public
+https://gitlab.com/acapopce97/pw69-2016-web-projekat
+
+Safety and security --> make it public
+https://gitlab.com/acapopce97/sigurnost-i-bezbednost-vol2
+
+Smart home system (upload)
+--------------------------
+
+
+*/
+
     const projects = [
         {
             image: portfolio,
             title: 'Portfolio',
             languages: ['React', 'Css', 'Html'],
+            link: 'https://github.com/AleksandarPopovic97/Portfolio'
         },
         {
             image: burger,
             title: 'Burger builder',
             languages: ['React', 'Css', 'Html'],
+            link: 'https://github.com/AleksandarPopovic97/BurgerBuilder'
         },
         {
             image: tesla,
             title: 'Tesla',
             languages: ['React', 'Css', 'Html', 'C#', 'SQL'],
+            link: 'https://github.com/AleksandarPopovic97/Tesla'
         },
         {
             image: portfolio,
             title: 'Test',
             languages: ['ReactTest', 'Css', 'Html'],
+            link: 'https://github.com/AleksandarPopovic97/Portfolio'
         },
         {
             image: portfolio,
             title: 'Test1',
             languages: ['ReactTest', 'Css', 'Html'],
+            link: 'https://github.com/AleksandarPopovic97/Portfolio'
         },
         {
             image: portfolio,
             title: 'Test2',
             languages: ['ReactTest', 'Css', 'Html'],
+            link: 'https://github.com/AleksandarPopovic97/Portfolio'
         },
     ]
 
@@ -73,11 +110,18 @@ const Projects = (props) => {
     return (
         <React.Fragment>
 
-            <div className={classes.Projects}>
+            <div className={styles.join(' ')}>
                 <div className={classes.ProjectList}>
 
                     {showProjects.map((project) => {
-                        return <Project image={project.image} title={project.title} languages={project.languages} key={project.title} />
+                        return <Project
+                            image={project.image}
+                            title={project.title}
+                            languages={project.languages}
+                            link={project.link}
+                            key={project.title}
+                            theme={props.theme}
+                        />
                     }
                     )}
                     {/* <Project image={portfolio} title="Portfolio" languages={['React', 'Css', 'Html']} />

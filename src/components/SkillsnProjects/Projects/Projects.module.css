@@ -14,14 +14,23 @@
 .Bar{
     width: 100%;
     border: 2px solid black;
-    box-sizing: border-box;
     height: 30px;
+    box-sizing: border-box;
+}
+
+.Dark .Bar{
+    border: 2px solid pink;
 }
 
 .Scroll{
     height: 100%;
     background-color: rgba(39, 37, 37, 0.411);
     transition: width 1s;
+}
+
+.Dark .Scroll{
+    background-color: rgba(255, 255, 255, 0.376);
+
 }
 
 .MoreProjects{
@@ -39,6 +48,11 @@
 .ButtonContainer .Icon{
     border: 3px solid black;
     font-size: 2rem;
+}
+
+.Dark .Icon{
+    border: 3px solid pink;
+    color: white;
 }
 
 @media (max-width: 500px) {
@@ -59,6 +73,7 @@
         width: 80%;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .Bar{
@@ -73,7 +88,7 @@
     .MoreProjects{
         height: 100%;
         width: 100%;
-        margin: 0;
+        margin-top: 35px;
     }
     
     .ButtonContainer{

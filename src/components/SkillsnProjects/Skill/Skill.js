@@ -9,10 +9,17 @@ const Skill = (props) => {
         }, props.delay);
     }, []);
 
+    let styles = [classes.Skill]
 
+    if (props.theme.includes('Dark')) {
+        styles.push(classes.Dark);
+    }
+    else {
+        styles.push(classes.Light);
+    }
 
     return (
-        <div className={classes.Skill}>
+        <div className={styles.join(' ')}>
             <p>{props.skill}</p>
         </div>
     )
