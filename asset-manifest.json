@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.28507f23.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d6d4ee14.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d6d4ee14.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.c3c80aab.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c3c80aab.js.map",
+    "main.css": "/Portfolio/static/css/main.68e96e1d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.62cf66db.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.62cf66db.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.16a757cb.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.16a757cb.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.ce86766b.chunk.js": "/Portfolio/static/js/2.ce86766b.chunk.js",
-    "static/js/2.ce86766b.chunk.js.map": "/Portfolio/static/js/2.ce86766b.chunk.js.map",
-    "static/js/3.0b37a465.chunk.js": "/Portfolio/static/js/3.0b37a465.chunk.js",
-    "static/js/3.0b37a465.chunk.js.map": "/Portfolio/static/js/3.0b37a465.chunk.js.map",
+    "static/js/2.4087ab6c.chunk.js": "/Portfolio/static/js/2.4087ab6c.chunk.js",
+    "static/js/2.4087ab6c.chunk.js.map": "/Portfolio/static/js/2.4087ab6c.chunk.js.map",
+    "static/js/3.2e30eeac.chunk.js": "/Portfolio/static/js/3.2e30eeac.chunk.js",
+    "static/js/3.2e30eeac.chunk.js.map": "/Portfolio/static/js/3.2e30eeac.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.28507f23.chunk.css.map": "/Portfolio/static/css/main.28507f23.chunk.css.map",
-    "static/js/2.ce86766b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ce86766b.chunk.js.LICENSE.txt",
+    "static/css/main.68e96e1d.chunk.css.map": "/Portfolio/static/css/main.68e96e1d.chunk.css.map",
+    "static/js/2.4087ab6c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4087ab6c.chunk.js.LICENSE.txt",
     "static/media/aviation-academy-dark.8c6af05e.png": "/Portfolio/static/media/aviation-academy-dark.8c6af05e.png",
     "static/media/aviation-academy.427d69d1.png": "/Portfolio/static/media/aviation-academy.427d69d1.png",
     "static/media/burger.1e3968a7.png": "/Portfolio/static/media/burger.1e3968a7.png",
@@ -25,10 +25,10 @@
     "static/media/tesla.da06c567.png": "/Portfolio/static/media/tesla.da06c567.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3c80aab.js",
+    "static/js/runtime-main.16a757cb.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.ce86766b.chunk.js",
-    "static/css/main.28507f23.chunk.css",
-    "static/js/main.d6d4ee14.chunk.js"
+    "static/js/2.4087ab6c.chunk.js",
+    "static/css/main.68e96e1d.chunk.css",
+    "static/js/main.62cf66db.chunk.js"
   ]
 }
