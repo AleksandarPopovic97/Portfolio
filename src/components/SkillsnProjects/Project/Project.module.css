@@ -1,7 +1,7 @@
 .Project{
     padding: 5px;
     box-sizing: border-box;
-    width: 30%;
+    width: 25%;
     transition: width 1s;
     display: flex;
     flex-direction: column;
@@ -16,8 +16,11 @@
 }
 
 .Container img{
+    width: 100%;
     z-index: 1;
     transition: opacity 0.5s;
+    background-size: cover;
+
 }
 
 .Container:hover{
@@ -28,9 +31,7 @@
     opacity: 0.3;
 }
 
-.Project img{
-    width: 100%;
-}
+
 
 .Description{
     padding-right: 10px;

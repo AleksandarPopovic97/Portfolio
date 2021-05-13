@@ -1,22 +1,94 @@
 .Projects{
     width: 100%;
-    height: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectList{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+.Bar{
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.Scroll{
+    height: 100%;
+    background-color: rgba(39, 37, 37, 0.411);
+    transition: width 1s;
+}
+
+.MoreProjects{
+    height: 15%;
+    width: 20%;
+    margin: auto;
+}
+
+.ButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ButtonContainer .Icon{
+    border: 3px solid black;
+    font-size: 2rem;
+}
+
 @media (max-width: 500px) {
-    .Projects{
+    /* .ProjectList{
         height: 75%;
         flex-direction: column;
         align-items: center;
+    } */
+
+    .Projects{
+        height: 70%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    .MoreProjects{
-        display: flex;
-        flex-direction: row;
+    .ProjectList{
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    .Bar{
+        height: 100%;
+    }
+
+    .Scroll{
+        transition: height 1s;
+    }
+
+    
+    .MoreProjects{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .ButtonContainer{
+        width: 100%;
+        height: 80%;
+        flex-direction: column;
+        margin: auto 0;
+    }
+    
+    .ButtonContainer .Icon{
+        font-size: 1.8rem;
+        transform: rotate(90deg);
+    }
+
+
 
     
 }

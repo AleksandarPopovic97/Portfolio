@@ -33,7 +33,6 @@ const Education = (props) => {
                     date="09/2012 - 06/2016"
                     city="Belgrade"
                     pictureResize
-
                 />
 
                 <div className={classes.Separator}>
