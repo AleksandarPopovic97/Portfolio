@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.75e406fc.chunk.css",
-    "main.js": "/Portfolio/static/js/main.af7a7f89.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.af7a7f89.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.b5385841.chunk.css",
+    "main.js": "/Portfolio/static/js/main.4e124a4a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.4e124a4a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.16a757cb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.16a757cb.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -12,23 +12,24 @@
     "static/js/3.2e30eeac.chunk.js.map": "/Portfolio/static/js/3.2e30eeac.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.75e406fc.chunk.css.map": "/Portfolio/static/css/main.75e406fc.chunk.css.map",
+    "static/css/main.b5385841.chunk.css.map": "/Portfolio/static/css/main.b5385841.chunk.css.map",
     "static/js/2.fe1f93cb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fe1f93cb.chunk.js.LICENSE.txt",
     "static/media/aviation-academy-dark.8c6af05e.png": "/Portfolio/static/media/aviation-academy-dark.8c6af05e.png",
     "static/media/aviation-academy.427d69d1.png": "/Portfolio/static/media/aviation-academy.427d69d1.png",
     "static/media/burger.1e3968a7.png": "/Portfolio/static/media/burger.1e3968a7.png",
+    "static/media/cinema.5c07c72d.png": "/Portfolio/static/media/cinema.5c07c72d.png",
     "static/media/ftn-logo-dark.b3631ced.png": "/Portfolio/static/media/ftn-logo-dark.b3631ced.png",
     "static/media/ftn-logo.1b91e828.png": "/Portfolio/static/media/ftn-logo.1b91e828.png",
     "static/media/About.module.css": "/Portfolio/static/media/portfolio-background.4495df92.jpg",
     "static/media/LandingPage.module.css": "/Portfolio/static/media/portfolio-background2.ae114041.jpg",
-    "static/media/portfolio.028e0bd3.png": "/Portfolio/static/media/portfolio.028e0bd3.png",
+    "static/media/portfolio.962c0893.png": "/Portfolio/static/media/portfolio.962c0893.png",
     "static/media/tesla.da06c567.png": "/Portfolio/static/media/tesla.da06c567.png"
   },
   "entrypoints": [
     "static/js/runtime-main.16a757cb.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.fe1f93cb.chunk.js",
-    "static/css/main.75e406fc.chunk.css",
-    "static/js/main.af7a7f89.chunk.js"
+    "static/css/main.b5385841.chunk.css",
+    "static/js/main.4e124a4a.chunk.js"
   ]
 }
