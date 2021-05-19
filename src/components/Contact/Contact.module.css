@@ -3,12 +3,16 @@
     height: 100vh;
 }
 
+.Contact p{
+    text-align: center;
+}
+
 .ContactContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 85%;
+    height: 75%;
     padding: 0 15px;
     box-sizing: border-box;
 }
@@ -25,6 +29,7 @@
 @media (max-width: 500px) {
     .ContactContainer{
         flex-direction: column;
+        height: 75%;
     }
     
 }

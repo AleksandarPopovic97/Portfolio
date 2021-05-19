@@ -23,12 +23,7 @@ const ContactFrame = (props) => {
     else
         link = 'tel:' + props.link;
 
-    const clickHandle = () => {
-        //if contains @ mailto:
-        //if contains only numbers tel:
-        //if contains https:// link
-        console.log(props.link);
-    }
+
 
     let icon;
 

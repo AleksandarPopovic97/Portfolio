@@ -21,7 +21,7 @@ const Contact = (props) => {
                 <ContactFrame theme={props.theme} title="E-mail" link="acapopce97@gmail.com" />
                 <ContactFrame theme={props.theme} title="Phone" link="062759164" />
             </div>
-
+            <p>Note that this is still unfinished beta version and that all is subject to change.</p>
         </div>
     )
 }

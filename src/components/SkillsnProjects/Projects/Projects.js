@@ -4,6 +4,7 @@ import classes from './Projects.module.css';
 import portfolio from '../../../assets/images/portfolio.png';
 import burger from '../../../assets/images/burger.png';
 import tesla from '../../../assets/images/tesla.png';
+import cinema from '../../../assets/images/cinema.png';
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa';
 import { BrowserView, MobileView } from 'react-device-detect';
 
@@ -73,6 +74,12 @@ Smart home system (upload)
             title: 'Tesla',
             languages: ['React', 'Css', 'Html', 'C#', 'SQL'],
             link: 'https://github.com/AleksandarPopovic97/Tesla'
+        },
+        {
+            image: cinema,
+            title: 'Cinema',
+            languages: ['C#', 'SQL'],
+            link: 'https://github.com/AleksandarPopovic97/Baze2Bioskop'
         },
         {
             image: portfolio,

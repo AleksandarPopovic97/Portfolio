@@ -20,7 +20,7 @@ const About = (props) => {
                     <h3>Skills</h3>
                     <p>Team player</p>
                     <p>Communication</p>
-                    <p>Precisions</p>
+                    <p>Precision</p>
                 </div>
                 <div className={classes.RightSection}>
                     <h3>Interests</h3>
