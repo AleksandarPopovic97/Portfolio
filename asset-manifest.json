@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b5385841.chunk.css",
-    "main.js": "/Portfolio/static/js/main.4e124a4a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.4e124a4a.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.16a757cb.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.16a757cb.js.map",
+    "main.css": "/Portfolio/static/css/main.0f46fad1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9fb5ef30.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9fb5ef30.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.c56ebe02.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c56ebe02.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Portfolio/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.fe1f93cb.chunk.js": "/Portfolio/static/js/2.fe1f93cb.chunk.js",
-    "static/js/2.fe1f93cb.chunk.js.map": "/Portfolio/static/js/2.fe1f93cb.chunk.js.map",
-    "static/js/3.2e30eeac.chunk.js": "/Portfolio/static/js/3.2e30eeac.chunk.js",
-    "static/js/3.2e30eeac.chunk.js.map": "/Portfolio/static/js/3.2e30eeac.chunk.js.map",
+    "static/js/2.667f95b9.chunk.js": "/Portfolio/static/js/2.667f95b9.chunk.js",
+    "static/js/2.667f95b9.chunk.js.map": "/Portfolio/static/js/2.667f95b9.chunk.js.map",
+    "static/js/3.4e033e3e.chunk.js": "/Portfolio/static/js/3.4e033e3e.chunk.js",
+    "static/js/3.4e033e3e.chunk.js.map": "/Portfolio/static/js/3.4e033e3e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.b5385841.chunk.css.map": "/Portfolio/static/css/main.b5385841.chunk.css.map",
-    "static/js/2.fe1f93cb.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.fe1f93cb.chunk.js.LICENSE.txt",
+    "static/css/main.0f46fad1.chunk.css.map": "/Portfolio/static/css/main.0f46fad1.chunk.css.map",
+    "static/js/2.667f95b9.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.667f95b9.chunk.js.LICENSE.txt",
+    "static/media/CV-Aleksandar-Popovic.01c259dc.pdf": "/Portfolio/static/media/CV-Aleksandar-Popovic.01c259dc.pdf",
     "static/media/aviation-academy-dark.8c6af05e.png": "/Portfolio/static/media/aviation-academy-dark.8c6af05e.png",
     "static/media/aviation-academy.427d69d1.png": "/Portfolio/static/media/aviation-academy.427d69d1.png",
     "static/media/burger.1e3968a7.png": "/Portfolio/static/media/burger.1e3968a7.png",
@@ -26,10 +27,10 @@
     "static/media/tesla.da06c567.png": "/Portfolio/static/media/tesla.da06c567.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.16a757cb.js",
+    "static/js/runtime-main.c56ebe02.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.fe1f93cb.chunk.js",
-    "static/css/main.b5385841.chunk.css",
-    "static/js/main.4e124a4a.chunk.js"
+    "static/js/2.667f95b9.chunk.js",
+    "static/css/main.0f46fad1.chunk.css",
+    "static/js/main.9fb5ef30.chunk.js"
   ]
 }
