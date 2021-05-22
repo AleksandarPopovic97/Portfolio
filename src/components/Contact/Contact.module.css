@@ -26,10 +26,37 @@
     background-image: linear-gradient(to bottom, #35929b7e, #9ce2dc93) ;
 }
 
+.CV{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.CV a{
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+}
+
+.Dark .CV a{
+    color: pink;
+}
+
+.CV a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+
 @media (max-width: 500px) {
     .ContactContainer{
         flex-direction: column;
-        height: 75%;
+        height: 70%;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .CV{
+        font-size: 1rem;
     }
     
 }

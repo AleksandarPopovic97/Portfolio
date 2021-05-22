@@ -19,7 +19,7 @@ const Skill = (props) => {
     }
 
     return (
-        <div className={styles.join(' ')}>
+        <div className={styles.join(' ')} onClick={props.filter}>
             <p>{props.skill}</p>
         </div>
     )

@@ -39,6 +39,7 @@ const ContactFrame = (props) => {
                 {icon}
             </div>
             <h2>{props.title}</h2>
+            <p>{props.link}</p>
         </div>
     )
 }
