@@ -21,12 +21,16 @@ const About = (props) => {
                     <p>Team player</p>
                     <p>Communication</p>
                     <p>Precision</p>
+                    <p>Organization</p>
+                    <p>Communication</p>
                 </div>
                 <div className={classes.RightSection}>
                     <h3>Interests</h3>
                     <p>Web development</p>
                     <p>Sport</p>
                     <p>Formula 1</p>
+                    <p>Guitar</p>
+                    <p>Video games</p>
                 </div>
             </div>
 

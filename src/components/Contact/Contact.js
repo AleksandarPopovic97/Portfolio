@@ -21,11 +21,11 @@ const Contact = (props) => {
 
     return (
         <div className={styles.join(' ')} id="contact">
-            <h1>Contact me (work in progress...)</h1>
+            <h1>Contact me</h1>
             <div className={classes.ContactContainer}>
                 {/* <ContactFrame theme={props.theme} title="Linkedin" link="https://www.linkedin.com/in/aleksandar-popovi%C4%87-14447312b/" /> */}
                 <ContactFrame theme={props.theme} title="E-mail" link="acapopce97@gmail.com" />
-                <ContactFrame theme={props.theme} title="Phone" link="062759164" />
+                <ContactFrame theme={props.theme} title="Phone" link="+38162759164" />
             </div>
             <div className={classes.CV}>
                 <a href={pdf} download="Aleksandar Popovic CV" >Download my CV <FaFileDownload /></a>

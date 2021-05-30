@@ -5,6 +5,7 @@ import portfolio from '../../../assets/images/portfolio.png';
 import burger from '../../../assets/images/burger.png';
 import tesla from '../../../assets/images/tesla.png';
 import cinema from '../../../assets/images/cinema.png';
+import cocktail from '../../../assets/images/cocktail.png';
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa';
 import { BrowserView, MobileView } from 'react-device-detect';
 
@@ -82,22 +83,10 @@ Smart home system (upload)
             link: 'https://github.com/AleksandarPopovic97/Baze2Bioskop'
         },
         {
-            image: portfolio,
-            title: 'Test',
-            languages: ['ReactTest', 'Css', 'Html'],
-            link: 'https://github.com/AleksandarPopovic97/Portfolio'
-        },
-        {
-            image: portfolio,
-            title: 'Test1',
-            languages: ['ReactTest', 'Css', 'Html'],
-            link: 'https://github.com/AleksandarPopovic97/Portfolio'
-        },
-        {
-            image: portfolio,
-            title: 'Test2',
-            languages: ['ReactTest', 'Css', 'Html'],
-            link: 'https://github.com/AleksandarPopovic97/Portfolio'
+            image: cocktail,
+            title: 'Cocktail',
+            languages: ['Html', 'Css', 'React'],
+            link: 'https://github.com/AleksandarPopovic97/CocktailWeb'
         },
     ]
 
